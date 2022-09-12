@@ -1,16 +1,29 @@
 # music_app
 
-A new Flutter project.
+## How To Use
+### Commands
 
-## Getting Started
+to rebuild generated files
+```
+make brunner
+```
 
-This project is a starting point for a Flutter application.
+to run:
+```
+start emulator / connect adb device to usb(real device)
 
-A few resources to get you started if this is your first Flutter project:
+make run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+to run integration test
+```
+start emulator / connect adb device to usb(real device)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+make itest
+```
+
+to run unit test
+```
+make btest
+```
+
